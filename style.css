@@ -1,0 +1,20 @@
+.header {
+	padding: 10px
+}
+.info {
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 10px 10px 0;
+	position: absolute;
+	top: -1111px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: all .5s ease;
+}
+
+.addressBook li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    text-transform: capitalize;
+    border-bottom: 1px dashed gray;
+}
